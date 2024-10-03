@@ -1,0 +1,24 @@
+	<div class="modal" id="addContactDiv">
+				<div class="modal-content">
+					<span class="close"> &times; </span>
+					<form id="addContactForm" action="/" method="post">
+						<p class="title">Add Contact</p>
+						<p class="message"> User Name </p>
+						<div class="flex">
+							<label for="firstName">
+								<span>Firstname</span>
+								<input id="contactFirstName" required="" placeholder="" type="text" class="input">
+							</label>
+							<label for="lastName">
+								<span>Lastname</span>
+								<input id="contactLastName" required="" placeholder="" type="text" class="input">
+							</label>
+						</div>
+						<label for="phoneNo">
+							<span>Phone Number</span>
+							<input id="contactPhoneNo" required="" placeholder="" type="tel" class="input" pattern="[0-9]+">
+						</label>
+						<button id="Contact-Submit-Btn" class="submit">Submit</button>
+					</form>
+				</div>
+			</div>
